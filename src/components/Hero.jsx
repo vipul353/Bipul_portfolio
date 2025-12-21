@@ -18,7 +18,7 @@ export const Hero = () => {
     contactSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const handleDownloadResume = () => {
+  const handleDownloadResume = async () => {
     if (!hero.resumeFile) {
       console.error('Resume file not specified in portfolio data');
       return;
@@ -26,12 +26,24 @@ export const Hero = () => {
 
     try {
       const resumeUrl = new URL(`../assets/${hero.resumeFile}`, import.meta.url).href;
+
+      // Fetch the file as a blob
+      const response = await fetch(resumeUrl);
+      const blob = await response.blob();
+
+      // Create a blob URL
+      const blobUrl = window.URL.createObjectURL(blob);
+
+      // Create and trigger download
       const link = document.createElement('a');
-      link.href = resumeUrl;
-      link.download = hero.resumeFile;
+      link.href = blobUrl;
+      link.download = hero.resumeFile; // This will now work correctly
       document.body.appendChild(link);
       link.click();
+
+      // Cleanup
       document.body.removeChild(link);
+      window.URL.revokeObjectURL(blobUrl);
     } catch (error) {
       console.error('Error downloading resume:', error);
     }
