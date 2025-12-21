@@ -19,8 +19,22 @@ export const Hero = () => {
   };
 
   const handleDownloadResume = () => {
-    // In a real app, this would download a resume file
-    console.log('Downloading resume...');
+    if (!hero.resumeFile) {
+      console.error('Resume file not specified in portfolio data');
+      return;
+    }
+
+    try {
+      const resumeUrl = new URL(`../assets/${hero.resumeFile}`, import.meta.url).href;
+      const link = document.createElement('a');
+      link.href = resumeUrl;
+      link.download = hero.resumeFile;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Error downloading resume:', error);
+    }
   };
 
   return (
