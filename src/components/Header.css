@@ -1,0 +1,131 @@
+.header {
+  background: rgba(15, 22, 36, 0.95);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 165, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffa500;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.nav-list a:hover {
+  color: #ffa500;
+}
+
+.nav-list a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ffa500;
+  transition: width 0.3s ease;
+}
+
+.nav-list a:hover::after {
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  gap: 6px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #ffa500;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: rgba(15, 22, 36, 0.98);
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border-bottom: 1px solid rgba(255, 165, 0, 0.1);
+  }
+
+  .nav-list.active {
+    max-height: 400px;
+  }
+
+  .nav-list li {
+    border-bottom: 1px solid rgba(255, 165, 0, 0.1);
+  }
+
+  .nav-list a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .nav-list a::after {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+}

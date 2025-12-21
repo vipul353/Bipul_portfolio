@@ -1,0 +1,35 @@
+.card {
+  background: rgba(30, 35, 55, 0.6);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 165, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card--hoverable {
+  cursor: pointer;
+}
+
+.card--hoverable:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(255, 165, 0, 0.2);
+  border-color: rgba(255, 165, 0, 0.3);
+}
+
+.card--default {
+  padding: 30px;
+}
+
+.card--compact {
+  padding: 20px;
+}
+
+.card--project {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(255, 165, 0, 0.2);
+}

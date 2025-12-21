@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "title": "Bipul Thakur - Portfolio",
+    "description": "A passionate mobile and web developer with expertise in Flutter and modern web technologies.",
+    "author": "Bipul Thakur",
+    "email": "thakurbipul353@gmail.com",
+    "phone": "+91 7667340560",
+    "logo": "Portfolio"
+  },
+  "hero": {
+    "name": "Bipul Thakur",
+    "greeting": "Hi, I'm",
+    "emoji": "👋",
+    "description": "Software Engineer with 2.5+ years of experience building high-performance cross-platform mobile applications (Android & iOS) using Flutter. I collaborate with backend teams, follow Agile practices, and focus on scalable, maintainable code and good UX.",
+    "profileImage": "profile.jpg",
+    "profileImageAlt": "Bipul Thakur's profile picture",
+    "buttons": [
+      {
+        "text": "Hire Me",
+        "type": "primary",
+        "action": "scroll-to-contact"
+      },
+      {
+        "text": "Download Resume",
+        "type": "secondary",
+        "action": "download-resume"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "web-dev",
+      "icon": "💻",
+      "title": "Web Development",
+      "description": "Creating responsive and modern websites using the latest technologies and best practices for optimal user experience."
+    },
+    {
+      "id": "tech-support",
+      "icon": "🔧",
+      "title": "Technical Support",
+      "description": "Providing comprehensive technical support and maintenance services to ensure your applications run smoothly."
+    },
+    {
+      "id": "mobile-dev",
+      "icon": "📱",
+      "title": "Mobile Development",
+      "description": "Building cross-platform mobile applications with Flutter for iOS and Android with native performance."
+    },
+    {
+      "id": "brand-dev",
+      "icon": "🎓",
+      "title": "Brand Development",
+      "description": "Helping businesses establish their digital presence with strategic branding and design solutions."
+    },
+    {
+      "id": "graphic-design",
+      "icon": "✏️",
+      "title": "Graphic Design",
+      "description": "Creating stunning visual designs and user interfaces that captivate and engage your audience."
+    },
+    {
+      "id": "web-design",
+      "icon": "🎨",
+      "title": "Web Design",
+      "description": "Designing beautiful and functional websites that reflect your brand identity and business goals."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "icon": "🎓",
+      "school": "Godavari Institute of Engineering and Technology",
+      "degree": "B.Tech",
+      "startYear": 2015,
+      "endYear": 2021,
+      "location": "Ranchi, India"
+    },
+    {
+      "id": "edu-2",
+      "icon": "🎓",
+      "school": "Kartik Orao Inter College",
+      "degree": "Intermediate of Science",
+      "startYear": 2013,
+      "endYear": 2015,
+      "location": "Ranchi, India"
+    },
+    {
+      "id": "edu-3",
+      "icon": "🎓",
+      "school": "Rajiv Gandhi High School",
+      "degree": "Matriculation",
+      "startYear": 2012,
+      "endYear": 2013,
+      "location": "Ranchi, India"
+    }
+  ],
+  "about": {
+    "title": "More About Me",
+    "description": "I'm a Software Engineer with 2.5+ years of experience in cross-platform mobile application development (Flutter) working primarily in the hospitality domain. I build high-performance, scalable single-page mobile apps, collaborate with backend teams, follow Agile practices, and apply best coding standards and architecture principles.",
+    "stats": [
+      {
+        "id": "stat-1",
+        "value": "20+",
+        "label": "Projects"
+      },
+      {
+        "id": "stat-2",
+        "value": "5+",
+        "label": "Clients"
+      },
+      {
+        "id": "stat-3",
+        "value": "2.5+",
+        "label": "Years Experience"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Flutter",
+      "proficiency": 90
+    },
+    {
+      "id": "skill-2",
+      "name": "Dart (OOP)",
+      "proficiency": 85
+    },
+    {
+      "id": "skill-3",
+      "name": "GetX (State Management)",
+      "proficiency": 80
+    },
+    {
+      "id": "skill-4",
+      "name": "BLoC",
+      "proficiency": 75
+    },
+    {
+      "id": "skill-5",
+      "name": "HTML5, CSS3, JavaScript (ES6)",
+      "proficiency": 70
+    },
+    {
+      "id": "skill-6",
+      "name": "Firebase & 3rd-party Integrations",
+      "proficiency": 75
+    },
+    {
+      "id": "skill-7",
+      "name": "Testing (Unit & Widget)",
+      "proficiency": 70
+    },
+    {
+      "id": "skill-8",
+      "name": "Native Platform Code (Android/iOS)",
+      "proficiency": 75
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "icon": "💼",
+      "title": "Software Engineer",
+      "company": "Peerbits Solutions Pvt. Ltd.",
+      "startDate": "Nov 2024",
+      "endDate": "Present",
+      "location": "Ahmedabad, India",
+      "details": "Built and deployed cross-platform Flutter apps for Android and iOS, handling international client projects and end-to-end development."
+    },
+    {
+      "id": "exp-2",
+      "icon": "💼",
+      "title": "Mobile Application Developer",
+      "company": "Kriscent Techno Hub Pvt. Ltd.",
+      "startDate": "Nov 2023",
+      "endDate": "Nov 2024",
+      "location": "Kota, India",
+      "details": "Developed cross-platform mobile apps using Flutter and collaborated with teams to deliver features and fixes."
+    },
+    {
+      "id": "exp-3",
+      "icon": "💼",
+      "title": "Mobile Application Developer",
+      "company": "BiInfinity Web Solution Pvt. Ltd.",
+      "startDate": "Oct 2022",
+      "endDate": "Oct 2023",
+      "location": "Kota, India",
+      "details": "Developed and maintained responsive Flutter apps, integrated APIs, Firebase, third-party services, applied state management and wrote unit/widget tests."
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-2",
+      "title": "KhushJeevan",
+      "image": "https://play-lh.googleusercontent.com/ydRvcVAYatsytWBnXeZq_FN2dnPabqqLhKzlTRMLcyqNSCTm-bv6aeRWH3_c76btJAQ=w480-h960-rw",
+      "imageAlt": "KhushJeevan - Social & Payments",
+      "description": "Cross-platform app with Firebase, payments (Razorpay/PhonePe), Agora integration.",
+      "fullDescription": "Built with Dart & Flutter using BLoC, responsive design, native code integration, REST APIs, Firebase backend, and payment gateway support.",
+      "tags": [
+        "Flutter",
+        "Firebase",
+        "Razorpay",
+        "Agora"
+      ],
+      "link": "",
+      "github": ""
+    },
+    {
+      "id": "project-3",
+      "title": "Bharatiya Astro",
+      "image": "https://play-lh.googleusercontent.com/B3owOTNE5SCvMvuTNpmi6ckUVNBhxYXkSIZVXOysFsyVoyeGfiFLkh8Ll-o2jqy9hJE=w480-h960-rw",
+      "imageAlt": "Bharatiya Astro - Astrology",
+      "description": "Feature-rich astrology app with charts, predictions and social features.",
+      "fullDescription": "Provides predictions, charts, compatibility checks, education content, social features and push notifications. Built using GetX and responsive design.",
+      "tags": [
+        "Flutter",
+        "GetX",
+        "REST API",
+        "Notifications"
+      ],
+      "link": "",
+      "github": ""
+    },
+    {
+      "id": "project-5",
+      "title": "Easy2learn",
+      "image": "https://play-lh.googleusercontent.com/RXbeNzQoDqfO6Rd_LTIym2UQhH62SQtXz1U2c9QIo9uTh7SXPZX6InpVCPmN5ez9eEg=w480-h960-rw",
+      "imageAlt": "Easy2learn - Educational App",
+      "description": "Educational app for students, educators and parents.",
+      "fullDescription": "Developed using Flutter and BLoC to enable seamless learning experiences and teacher-student interactions.",
+      "tags": [
+        "Flutter",
+        "BLoC",
+        "Education"
+      ],
+      "link": "",
+      "github": ""
+    },
+    {
+      "id": "project-6",
+      "title": "Paras Travels",
+      "image": "image.png",
+      "imageAlt": "Paras Travels - Fleet Management",
+      "description": "Fleet management system with driver and supervisor apps (maps & geolocation).",
+      "fullDescription": "Mobile apps for drivers and supervisors using Google Maps, BLoC, testing and native integrations for Android and iOS.",
+      "tags": [
+        "Flutter",
+        "Maps",
+        "BLoC"
+      ],
+      "link": "",
+      "github": ""
+    },
+    {
+      "id": "project-7",
+      "title": "Gudz",
+      "image": "https://play-lh.googleusercontent.com/6CJAwzxOakBy126-dYve64qy5LVmTihP2UEzciM9AQz52aZgL0JbqVK_dH6GQEpdFQ=w480-h960-rw",
+      "imageAlt": "Gudz - Fleet & Customer App",
+      "description": "Driver and customer apps for fleet management with Firebase and maps.",
+      "fullDescription": "Built using Flutter with GetX, Firebase and mapping features to manage drivers and customers.",
+      "tags": [
+        "Flutter",
+        "GetX",
+        "Firebase",
+        "Maps"
+      ],
+      "link": "",
+      "github": ""
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "name": "John Doe",
+      "role": "CEO, TechStartup",
+      "avatar": "JD",
+      "text": "Working with Bipul was an absolute pleasure. His attention to detail and technical expertise helped us launch our platform ahead of schedule. Highly recommended!"
+    }
+  ],
+  "contact": {
+    "title": "Let's Connect",
+    "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the channels below.",
+    "details": [
+      {
+        "id": "contact-email",
+        "icon": "📧",
+        "label": "Email",
+        "value": "thakurbipul353@gmail.com",
+        "link": "mailto:thakurbipul353@gmail.com"
+      },
+      {
+        "id": "contact-phone",
+        "icon": "📱",
+        "label": "Phone",
+        "value": "+91 7667340560",
+        "link": "tel:+917667340560"
+      }
+    ]
+  },
+  "social": [
+    {
+      "id": "social-linkedin",
+      "name": "LinkedIn",
+      "url": "",
+      "icon": "linkedin"
+    },
+    {
+      "id": "social-github",
+      "name": "GitHub",
+      "url": "",
+      "icon": "github"
+    },
+    {
+      "id": "social-twitter",
+      "name": "Twitter",
+      "url": "",
+      "icon": "twitter"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.circular-progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.circular-progress {
+  filter: drop-shadow(0 0 10px rgba(255, 165, 0, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.circular-progress:hover {
+  transform: scale(1.05);
+}
+
+.progress-bg {
+  fill: none;
+  stroke: rgba(30, 35, 55, 0.6);
+  stroke-linecap: round;
+}
+
+.progress-bar {
+  fill: none;
+  stroke: url(#gradient);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1.5s ease;
+}
+
+.progress-text {
+  font-size: 24px;
+  font-weight: 700;
+  fill: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.skill-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+/* Add gradient definition */
+.circular-progress defs {
+  position: absolute;
+}
