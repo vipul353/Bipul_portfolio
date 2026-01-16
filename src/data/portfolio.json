@@ -11,7 +11,7 @@
     "name": "Bipul Thakur",
     "greeting": "Hi, I'm",
     "emoji": "👋",
-    "description": "Software Engineer with 2.5+ years of experience building high-performance cross-platform mobile applications (Android & iOS) using Flutter. I collaborate with backend teams, follow Agile practices, and focus on scalable, maintainable code and good UX.",
+    "description": "Software Engineer with 3+ years of experience crafting high-performance cross-platform mobile applications for Android & iOS using Flutter. I specialize in backend collaboration, Agile methodologies, and delivering scalable, maintainable code with exceptional user experiences.",
     "profileImage": "profile.jpg",
     "profileImageAlt": "Bipul Thakur's profile picture",
     "resumeFile": "Bipul-thakur-FlowCV-Resume-20251221.pdf",
@@ -97,7 +97,7 @@
   ],
   "about": {
     "title": "More About Me",
-    "description": "I'm a Software Engineer with 2.5+ years of experience in cross-platform mobile application development (Flutter) working primarily in the hospitality domain. I build high-performance, scalable single-page mobile apps, collaborate with backend teams, follow Agile practices, and apply best coding standards and architecture principles.",
+    "description": "I am a Software Engineer with over 3 years of expertise in cross-platform mobile application development using Flutter, primarily within the hospitality domain. I engineer high-performance, scalable mobile solutions, collaborating seamlessly with backend teams and adhering to Agile practices and architectural best standards.",
     "stats": [
       {
         "id": "stat-1",
@@ -111,7 +111,7 @@
       },
       {
         "id": "stat-3",
-        "value": "2.5+",
+        "value": "3+",
         "label": "Years Experience"
       }
     ]
@@ -156,6 +156,11 @@
       "id": "skill-8",
       "name": "Native Platform Code (Android/iOS)",
       "proficiency": 75
+    },
+    {
+      "id": "skill-9",
+      "name": "React",
+      "proficiency": 80
     }
   ],
   "experience": [
@@ -191,6 +196,54 @@
     }
   ],
   "projects": [
+    {
+      "id": "project-spider-ai",
+      "title": "Spider AI",
+      "image": "spider-ai.jpg",
+      "imageAlt": "Spider AI - Restaurant Management",
+      "description": "Restaurant and branch management software made in Flutter.",
+      "fullDescription": "Comprehensive restaurant and branch management software developed using Flutter, enabling efficient operations, real-time monitoring, and seamless management of multiple outlets.",
+      "tags": [
+        "Flutter",
+        "Management",
+        "Firebase",
+        "GetX"
+      ],
+      "link": "",
+      "github": ""
+    },
+    {
+      "id": "project-click-gas",
+      "title": "Click Gas",
+      "image": "click-gas.jpg",
+      "imageAlt": "Click Gas - Delivery App",
+      "description": "On-demand gas delivery application.",
+      "fullDescription": "Gas delivery app facilitating seamless ordering and real-time tracking for customers, ensuring timely and efficient service.",
+      "tags": [
+        "Flutter",
+        "Delivery",
+        "GetX",
+        "API"
+      ],
+      "link": "",
+      "github": ""
+    },
+    {
+      "id": "project-sos-app",
+      "title": "SOS App",
+      "image": "sos-app.jpg",
+      "imageAlt": "SOS App - Emergency Services",
+      "description": "Emergency app for 114, 116000 & 196 with instant calls and location tracking.",
+      "fullDescription": "Emergency response app integrating 114, 116000, and 196 services. Features instant calling, automated email alerts, and real-time location tracking for immediate assistance.",
+      "tags": [
+        "Flutter",
+        "Emergency",
+        "Location",
+        "GetX"
+      ],
+      "link": "",
+      "github": ""
+    },
     {
       "id": "project-2",
       "title": "KhushJeevan",
@@ -273,10 +326,24 @@
   "testimonials": [
     {
       "id": "testimonial-1",
-      "name": "John Doe",
+      "name": "Sujit Sharma",
       "role": "CEO, TechStartup",
-      "avatar": "JD",
+      "avatar": "SS",
       "text": "Working with Bipul was an absolute pleasure. His attention to detail and technical expertise helped us launch our platform ahead of schedule. Highly recommended!"
+    },
+    {
+      "id": "testimonial-2",
+      "name": "Rahul Verma",
+      "role": "Software Engineer, Peerbits",
+      "avatar": "RV",
+      "text": "Bipul is a dedicated developer with a strong grasp of Flutter. He consistently delivers quality code and is a great team player who is always ready to help."
+    },
+    {
+      "id": "testimonial-3",
+      "name": "Neha Gupta",
+      "role": "HR, Kriscent Techno Hub",
+      "avatar": "NG",
+      "text": "Bipul was a valuable asset to our team. His professionalism, punctuality, and technical skills were impressive during his tenure with us."
     }
   ],
   "contact": {
@@ -303,20 +370,14 @@
     {
       "id": "social-linkedin",
       "name": "LinkedIn",
-      "url": "",
+      "url": "https://www.linkedin.com/in/vipul-thakur-sde",
       "icon": "linkedin"
     },
     {
       "id": "social-github",
       "name": "GitHub",
-      "url": "",
+      "url": "https://github.com/vipul353",
       "icon": "github"
-    },
-    {
-      "id": "social-twitter",
-      "name": "Twitter",
-      "url": "",
-      "icon": "twitter"
     }
   ]
 }
